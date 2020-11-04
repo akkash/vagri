@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "title": "Make Farming Sustainable Livelihood",
+    "subTitle": "Vagri wants to"
+  },
+  "swiperPoster": "ipic1.jpg",
+  "swiperImages": ["ipic2.jpg", "ipic3.jpg"],
+  "searchOptions": [
+    {
+      "value": "small",
+      "label": "Seeds"
+    },
+    {
+      "value": "medium",
+      "label": "Fertilizers and Pesticides"
+    },
+    {
+      "value": "large",
+      "label": "Traders"
+    },
+    {
+      "value": "x-large",
+      "label": "Institutional Buyers"
+    }
+  ],
+  "topBlocks": {
+    "title": "FARMINAR",
+    "subTitle": "Online Meeting for Farmers Ecosystem",
+    "blocks": [
+      {
+        "title": "Why Attend FARMINAR?",
+        "content": "Best oppurtunity to get knowledge and information from the agricultural experts and also successful farmers.",
+        "icon": "#destination-map-1"
+      },
+      {
+        "title": "Join the Meeting",
+        "content": "All you have to do is register for yourself and listen to the experts while sitting at your farm or at home.",
+        "icon": "#pay-by-card-1"
+      },
+      {
+        "title": "Upgrade Your Farming",
+        "content": "There will be always something to learn and upgrade our knowledge.",
+        "icon": "#heart-1"
+      }
+    ]
+  },
+  "jumbotron": {
+    "title": "Ready for your next Farminar?",
+    "button": "Get started",
+    "link": "category-rooms",
+    "img": "img/photo/photo-1497436072909-60f360e1d4b1.jpg"
+  }
+}

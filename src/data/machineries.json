@@ -1,0 +1,32 @@
+{
+  "title": "Agricultural Machinery",
+  "subTitle": "Stay and eat like a local",
+  "button": "See all Agricultural Machineries",
+  "buttonLink": "/category-2-rooms",
+  "swiperItems": [
+    {
+      "title": "Cultivators",
+      "subtitle": "",
+      "img": "img/photo/new-york.jpg",
+      "link": "/category-2-rooms"
+    },
+    {
+      "title": "Destoner",
+      "subtitle": "",
+      "img": "img/photo/paris.jpg",
+      "link": "/category-2-rooms"
+    },
+    {
+      "title": "Planter",
+      "subtitle": "",
+      "img": "img/photo/barcelona.jpg",
+      "link": "/category-2-rooms"
+    },
+    {
+      "title": "Thresher",
+      "subtitle": "",
+      "img": "img/photo/prague.jpg",
+      "link": "/category-2-rooms"
+    }
+  ]
+}
