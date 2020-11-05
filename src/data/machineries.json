@@ -7,25 +7,25 @@
     {
       "title": "Cultivators",
       "subtitle": "",
-      "img": "img/photo/new-york.jpg",
+      "img": "img/photo/cultivators.jpg",
       "link": "/category-2-rooms"
     },
     {
       "title": "Destoner",
       "subtitle": "",
-      "img": "img/photo/paris.jpg",
+      "img": "img/photo/destoner.jpg",
       "link": "/category-2-rooms"
     },
     {
       "title": "Planter",
       "subtitle": "",
-      "img": "img/photo/barcelona.jpg",
+      "img": "img/photo/planter.jpeg",
       "link": "/category-2-rooms"
     },
     {
       "title": "Thresher",
       "subtitle": "",
-      "img": "img/photo/prague.jpg",
+      "img": "img/photo/thresher.jpg",
       "link": "/category-2-rooms"
     }
   ]

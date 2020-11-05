@@ -7,7 +7,7 @@ import footerContent from "../data/footer.json";
 export default () => {
   return (
     <footer className="position-relative z-index-10 d-print-none">
-      <div className="py-6 bg-gray-200 text-muted">
+      <div className="py-4 bg-gray-200 text-muted">
         <Container>
           <Row>
             {footerContent &&
@@ -76,7 +76,7 @@ export default () => {
           <Row className="align-items-center">
             <Col md="6" className="text-center text-md-left">
               <p className="text-sm mb-md-0">
-                © 2020, vagri.in. All rights reserved.
+                © 2020, vagri.in All rights reserved.
               </p>
             </Col>
           </Row>
