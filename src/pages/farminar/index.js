@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
 
-import data from "../data/farminar.json";
+import data from "../../data/farminar.json";
 
 export async function getStaticProps() {
   return {
