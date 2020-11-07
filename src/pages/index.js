@@ -106,26 +106,6 @@ export default () => {
         </section>
       )}
       <Machineries />
-
-      {data.jumbotron && (
-        <section className="py-7 position-relative dark-overlay">
-          <img
-            src={`/content/${data.jumbotron.img}`}
-            alt=""
-            className="bg-image"
-          />
-          <Container>
-            <div className="overlay-content text-white py-lg-5">
-              <h3 className="display-3 font-weight-bold text-serif text-shadow mb-5">
-                {data.jumbotron.title}
-              </h3>
-              <Link href={data.jumbotron.link}>
-                <Button color="light">Get started</Button>
-              </Link>
-            </div>
-          </Container>
-        </section>
-      )}
     </React.Fragment>
   );
 };

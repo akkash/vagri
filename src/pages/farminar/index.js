@@ -22,60 +22,61 @@ export async function getStaticProps() {
 export default () => {
   return (
     <React.Fragment>
-      <section className="hero py-6 py-lg-7 text-white dark-overlay">
-        {data.hero && (
+      {data.jumbotron && (
+        <section className="py-7 position-relative dark-overlay">
           <img
-            src={`/content/img/photo/${data.hero}`}
-            className="bg-image"
+            src={`/content/${data.jumbotron.img}`}
             alt=""
+            className="bg-image"
           />
-        )}
-        <Container className="overlay-content">
-          <Breadcrumb listClassName="text-white justify-content-center no-border mb-0">
-            <BreadcrumbItem>
-              <Link href="/">
-                <a>Home</a>
+          <Container>
+            <div className="overlay-content text-white py-lg-5">
+              <h3 className="display-3 font-weight-bold text-serif text-shadow mb-5">
+                {data.jumbotron.title}
+              </h3>
+              <Link href={data.jumbotron.link}>
+                <Button color="light">Get started</Button>
               </Link>
-            </BreadcrumbItem>
-            <BreadcrumbItem active>{data.subtitle}</BreadcrumbItem>
-          </Breadcrumb>
+            </div>
+          </Container>
+        </section>
+      )}
 
-          <h1 className="hero-heading">{data.title && data.title}</h1>
-        </Container>
-      </section>
-      <section className="py-6">
-        <Container>
-          <Row>
-            <Col xl="8" lg="10" className="mx-auto">
-              <p
-                className="lead mb-5"
-                dangerouslySetInnerHTML={{ __html: data.excerpt }}
-              />
-            </Col>
-          </Row>
-          {data.img && (
+      {data.topBlocks && (
+        <section className="py-6 bg-gray-100">
+          <Container>
+            <div className="text-center pb-lg-4">
+              <p className="subtitle text-secondary">
+                {data.topBlocks.subTitle}
+              </p>
+              <h2 className="mb-5">{data.topBlocks.title}</h2>
+            </div>
             <Row>
-              <Col xl="10" className="mx-auto">
-                <img
-                  src={`/content/img/photo/${data.img}`}
-                  alt=""
-                  className="img-fluid mb-5"
-                />
-              </Col>
+              {data.topBlocks.blocks.map((block) => (
+                <Col
+                  key={block.title}
+                  lg="4"
+                  className="mb-3 mb-lg-0 text-center"
+                >
+                  <div className="px-0 px-lg-3">
+                    <div className="icon-rounded bg-primary-light mb-3">
+                      <svg className="svg-icon text-primary w-2rem h-2rem">
+                        <use
+                          xlinkHref={`content/svg/orion-svg-sprite.svg${block.icon}`}
+                        >
+                          {" "}
+                        </use>
+                      </svg>
+                    </div>
+                    <h3 className="h5">{block.title}</h3>
+                    <p className="text-muted">{block.content}</p>
+                  </div>
+                </Col>
+              ))}
             </Row>
-          )}
-          {data.content && (
-            <Row>
-              <Col xl="8" lg="10" className="mx-auto">
-                <div
-                  className="text-content"
-                  dangerouslySetInnerHTML={{ __html: data.content }}
-                />
-              </Col>
-            </Row>
-          )}
-        </Container>
-      </section>
+          </Container>
+        </section>
+      )}
     </React.Fragment>
   );
 };
