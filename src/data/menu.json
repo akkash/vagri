@@ -4,12 +4,12 @@
     "link": "/"
   },
   {
-    "title": "Contact",
-    "link": "/contact"
-  },
-  {
     "title": "Farminar",
     "link": "/farminar"
+  },
+  {
+    "title": "Contact",
+    "link": "/contact"
   },
   {
     "title": "Sign in",
