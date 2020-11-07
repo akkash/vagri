@@ -21,7 +21,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Text",
+      title: "Vagri - Farminar",
     },
   };
 }

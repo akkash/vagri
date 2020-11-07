@@ -22,7 +22,7 @@ export async function getStaticProps() {
         classes: "shadow",
         color: "white",
       },
-      title: "Homepage",
+      title: "Vagri- Homepage",
     },
   };
 }
