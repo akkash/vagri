@@ -102,6 +102,10 @@ export default () => {
                 </Col>
               ))}
             </Row>
+
+            <Link href={data.jumbotron.link}>
+              <Button color="light">Get started</Button>
+            </Link>
           </Container>
         </section>
       )}

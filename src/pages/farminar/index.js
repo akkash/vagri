@@ -2,7 +2,14 @@ import React from "react";
 
 import Link from "next/link";
 
-import { Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Button,
+  Breadcrumb,
+  BreadcrumbItem,
+} from "reactstrap";
 
 import data from "../../data/farminar.json";
 
@@ -34,9 +41,6 @@ export default () => {
               <h3 className="display-3 font-weight-bold text-serif text-shadow mb-5">
                 {data.jumbotron.title}
               </h3>
-              <Link href={data.jumbotron.link}>
-                <Button color="light">Get started</Button>
-              </Link>
             </div>
           </Container>
         </section>
