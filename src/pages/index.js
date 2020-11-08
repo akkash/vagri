@@ -51,10 +51,7 @@ export default () => {
             <Col xl="10">
               {data.hero && (
                 <div className="text-center text-lg-left">
-                  <p className="subtitle letter-spacing-4 mb-2 text-secondary text-shadow">
-                    {data.hero.subTitle}
-                  </p>
-                  <h1 className="display-3 font-weight-bold text-shadow">
+                  <h1 className="display-3 font-weight-bold text-shadow  text-center">
                     {data.hero.title}
                   </h1>
                 </div>
@@ -101,9 +98,13 @@ export default () => {
               ))}
             </Row>
 
-            <Link href={data.jumbotron.link}>
-              <Button color="light">Get started</Button>
-            </Link>
+            <Row>
+              <Col lg="4" className="mx-auto text-center">
+                <Link href={data.jumbotron.link}>
+                  <Button color="dark">Get started</Button>
+                </Link>
+              </Col>
+            </Row>
           </Container>
         </section>
       )}
