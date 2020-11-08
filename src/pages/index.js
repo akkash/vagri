@@ -8,6 +8,9 @@ import Swiper from "../components/Swiper";
 import SearchBar from "../components/SearchBar";
 import LastMinute from "../components/LastMinute";
 import Machineries from "../components/Machineries";
+import Fertilizers from "../components/Fertilizers";
+import AgroProducts from "../components/AgroProducts";
+import AquacultureEquipments from "../components/AquacultureEquipments";
 
 import CardPost from "../components/CardPost";
 
@@ -105,6 +108,9 @@ export default () => {
         </section>
       )}
       <Machineries />
+      <Fertilizers />
+      <AgroProducts />
+      <AquacultureEquipments />
     </React.Fragment>
   );
 };

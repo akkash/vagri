@@ -1,0 +1,32 @@
+{
+  "title": "Agro Products",
+  "subTitle": "See all Agro Products",
+  "button": "See all Agro Products",
+  "buttonLink": "/coming-soon",
+  "swiperItems": [
+    {
+      "title": "Coconut Products",
+      "subtitle": "",
+      "img": "img/photo/coconut_products.jpeg",
+      "link": "coming-soon"
+    },
+    {
+      "title": "Forage Crops",
+      "subtitle": "",
+      "img": "img/photo/forage_crops.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Sago Starch",
+      "subtitle": "",
+      "img": "img/photo/sago_products.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Silk Products",
+      "subtitle": "",
+      "img": "img/photo/silk_products.jpeg",
+      "link": "/coming-soon"
+    }
+  ]
+}

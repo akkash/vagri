@@ -4,7 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 
 import Swiper from "./Swiper";
 
-import data from "../data/machineries.json";
+import data from "../data/fertilizers.json";
 
 export default (props) => {
   return (

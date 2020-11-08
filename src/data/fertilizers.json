@@ -1,0 +1,32 @@
+{
+  "title": "Organic & Chemical Fertilizers",
+  "subTitle": "See all Agricultural Machineries",
+  "button": "See all Agricultural Machineries",
+  "buttonLink": "/coming-soon",
+  "swiperItems": [
+    {
+      "title": "Chemical Fertilizer",
+      "subtitle": "",
+      "img": "img/photo/chemical_fertilizer.jpeg",
+      "link": "coming-soon"
+    },
+    {
+      "title": "Organic Fertilizer",
+      "subtitle": "",
+      "img": "img/photo/organic_fertilizer.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Micronutrient Fertilizer",
+      "subtitle": "",
+      "img": "img/photo/micro_fertilizer.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Plant Growth Regulators and Promoters",
+      "subtitle": "",
+      "img": "img/photo/plant_growth.jpeg",
+      "link": "/coming-soon"
+    }
+  ]
+}

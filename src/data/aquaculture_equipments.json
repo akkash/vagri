@@ -1,0 +1,32 @@
+{
+  "title": "Aquaculture Equipment Supplies",
+  "subTitle": "See all Aquaculture Equipment Supplies",
+  "button": "See all Aquaculture Equipment Supplies",
+  "buttonLink": "/coming-soon",
+  "swiperItems": [
+    {
+      "title": "Aquaculture Aerator",
+      "subtitle": "",
+      "img": "img/photo/aquaculture_aerators.jpeg",
+      "link": "coming-soon"
+    },
+    {
+      "title": "Aquaculture Chemicals",
+      "subtitle": "",
+      "img": "img/photo/aquaculture_chemicals.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Hatchery",
+      "subtitle": "",
+      "img": "img/photo/aquaculture_hatchery.jpeg",
+      "link": "/coming-soon"
+    },
+    {
+      "title": "Water Treatment",
+      "subtitle": "",
+      "img": "img/photo/aquaculture_watertreatment.jpeg",
+      "link": "/coming-soon"
+    }
+  ]
+}
