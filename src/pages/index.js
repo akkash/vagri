@@ -30,12 +30,7 @@ export async function getStaticProps() {
 export default () => {
   return (
     <React.Fragment>
-      <section
-        className="hero-home"
-        style={{
-          backgroundImage: `url(content/img/photo/${data.swiperPoster})`,
-        }}
-      >
+      <section className="hero-home">
         <Swiper
           className="hero-slider"
           wrapperClasses="dark-overlay"

@@ -1,32 +1,32 @@
 {
   "title": "Agricultural Machinery",
-  "subTitle": "Stay and eat like a local",
+  "subTitle": "See all Agricultural Machineries",
   "button": "See all Agricultural Machineries",
-  "buttonLink": "/category-2-rooms",
+  "buttonLink": "/coming-soon",
   "swiperItems": [
     {
       "title": "Cultivators",
       "subtitle": "",
       "img": "img/photo/cultivators.jpg",
-      "link": "/category-2-rooms"
+      "link": "coming-soon"
     },
     {
       "title": "Destoner",
       "subtitle": "",
       "img": "img/photo/destoner.jpg",
-      "link": "/category-2-rooms"
+      "link": "/coming-soon"
     },
     {
       "title": "Planter",
       "subtitle": "",
       "img": "img/photo/planter.jpeg",
-      "link": "/category-2-rooms"
+      "link": "/coming-soon"
     },
     {
       "title": "Thresher",
       "subtitle": "",
       "img": "img/photo/thresher.jpg",
-      "link": "/category-2-rooms"
+      "link": "/coming-soon"
     }
   ]
 }
